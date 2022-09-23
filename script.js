@@ -149,7 +149,7 @@ const projects = [
     projectDescription:
       "Chat Loop is a highly scalable, low cost and high performant chat application built on AWS and React leveraging GraphQL subscriptions for real time communication.",
     projectImage: "images/chatloop.png",
-    codeLink: "https://github.com/pranjalgoyal/chatloop-frontend",
+    codeLink: "https://github.com/pranjalgoyal/chatloop-Software",
     demoLink: "https://chat-loop.pranjalgoyal.tech/"
   },{
     projectName: "Image Dock",
@@ -163,7 +163,7 @@ const projects = [
     projectDescription:
       "Its an application to create notes and notebooks.",
     projectImage: "images/notesyard.png",
-    codeLink: "https://github.com/pranjalgoyal/notes-yard-frontend",
+    codeLink: "https://github.com/pranjalgoyal/notes-yard-Software",
     demoLink: "https://notes-yard.pranjalgoyal.tech/"
   },{
     projectName: "Movies Deck",

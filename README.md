@@ -1,5 +1,5 @@
 # Portfolio
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/pranjalgoyal) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/pranjalgoyal)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/pranjalg13) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/pranjalg13)
 
 Go through this amazing portfolio repo made using just HTML, CSS and Js
 

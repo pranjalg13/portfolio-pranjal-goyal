@@ -2,29 +2,22 @@ function setTheme(mode) {
   if (mode === "light") {
     document.getElementById("theme-style").href = "default.css";
     document.getElementById('github').style.fill="black";
-    document.getElementById('codesandbox').style.fill="black";
-    document.getElementById('codepen').style.fill="black";
+
   }
 
   if (mode === "blue") {
     document.getElementById("theme-style").href = "blue.css";
     document.getElementById('github').style.fill="white";
-    document.getElementById('codesandbox').style.fill="white";
-    document.getElementById('codepen').style.fill="white";
   }
 
   if (mode === "green") {
     document.getElementById("theme-style").href = "green.css";
     document.getElementById('github').style.fill="black";
-    document.getElementById('codesandbox').style.fill="black";
-    document.getElementById('codepen').style.fill="black";
   }
 
   if (mode === "purple") {
     document.getElementById("theme-style").href = "purple.css";
     document.getElementById('github').style.fill="white";
-    document.getElementById('codesandbox').style.fill="black";
-    document.getElementById('codepen').style.fill="white";
   }
   localStorage.setItem("theme", mode);
 }
@@ -33,7 +26,7 @@ let theme = localStorage.getItem("theme");
 
 // Fetching the theme from the local storage if available
 if (theme) setTheme(theme);
-else setTheme("light");
+else setTheme("blue");
 
 let themeDots = document.getElementsByClassName("theme-dot");
 
@@ -65,7 +58,7 @@ class Project {
 
     this.demo = this.createAttributeTag({
       href: demoLink,
-      text: "Live Demo"
+      text: demoLink!=null ? "Live Demo" : ""
     });
 
     this.code = this.createAttributeTag({
@@ -145,123 +138,49 @@ class Project {
 
 const projects = [
   {
-    projectName: "Chat Loop",
+    projectName: "Xmeme",
     projectDescription:
-      "Chat Loop is a highly scalable, low cost and high performant chat application built on AWS and React leveraging GraphQL subscriptions for real time communication.",
-    projectImage: "images/chatloop.png",
-    codeLink: "https://github.com/pranjalgoyal/chatloop-Software",
-    demoLink: "https://chat-loop.pranjalgoyal.tech/"
+      "Xmeme is a meme streaming application which lets you post your faviorite memes with Name,URL and Caption.",
+    projectImage: "images/xmeme.png",
+    codeLink: "https://github.com/pranjalg13/Xmeme",
+    demoLink: "https://xmeme.pythonanywhere.com/"
   },{
-    projectName: "Image Dock",
+    projectName: "Contextual Chatbot",
     projectDescription:
-      "ImageDock is a one-stop solution to upload images, create albums and get embedded codes.",
-    projectImage: "images/imagedock.png",
+      "A chatbot that can understand the question and answer intelligently.",
+    projectImage: "images/2.gif",
     codeLink: "https://github.com/pranjalgoyal/ImageDock",
-    demoLink: "https://image-dock.pranjalgoyal.tech/"
+    demoLink: null
   },{
-    projectName: "Notes Yard",
+    projectName: "Space Explorer",
     projectDescription:
-      "Its an application to create notes and notebooks.",
-    projectImage: "images/notesyard.png",
-    codeLink: "https://github.com/pranjalgoyal/notes-yard-Software",
-    demoLink: "https://notes-yard.pranjalgoyal.tech/"
+      "A Flutter application to explore our Solar Planet",
+    projectImage: "images/space.png",
+    codeLink: "https://github.com/pranjalg13/SpaceExploration",
+    demoLink: "https://play.google.com/store/apps/details?id=com.brocodelabs.spaceexploration&hl=en&gl=US"
   },{
-    projectName: "Movies Deck",
+    projectName: "Hire Me",
     projectDescription:
-      "Movie's Deck is a movie listing application. In addition to exploring and searching the listed movies, you can also create watchlists and add movies in your watchlists.",
-    projectImage: "images/movies.png",
+      "HireMe is a one stop solution to hire people (Design)",
+    projectImage: "images/hireme.png",
     codeLink: "https://github.com/pranjalgoyal/movies-deck",
-    demoLink: "https://movies-deck.pranjalgoyal.tech/"
+    demoLink: null
   },
   {
-    projectName: "Talent Board",
+    projectName: "Fake News Detection",
     projectDescription:
-      "This is a community initiative to connect active job seekers with organizations and people who participate in employee referral programs.",
-    projectImage: "images/talentboard.png",
-    codeLink: "https://github.com/CodeOpsTechnologies/talent-board-fe",
-    demoLink: "https://talent.awsug.in/"
-  },
-  {
-    projectName: "Pokedex",
-    projectDescription:
-      "Pokedex is an application built using typescript to get the check the list of pokemons and their properties.",
-    projectImage: "images/pokedex.png",
-    codeLink: "https://github.com/pranjalgoyal/pokedex",
-    demoLink: "https://pokedeck.pranjalgoyal.tech/"
-  },
-  {
-    projectName: "Lets Play with APIs: Breaking Bad",
-    projectDescription:
-      "Designed & built a the application using Axios and React-Hooks to display characters of a Sci-fic show Breaking Bad.",
-    projectImage: "images/Screenshot (698).png",
-    codeLink: "https://github.com/pranjalgoyal/breaking-bad",
-    demoLink: "https://breaking-bad-api-pink.vercel.app/"
-  },
-  {
-    projectName: "Portfolio with Theme Changer",
-    projectDescription:
-      "Designed & Built the Portfolio using HTML CSS and Vanilla JavaScript to show case the Professional Journey.",
-    projectImage: "images/Screenshot (851).png",
-    codeLink: "https://github.com/pranjalgoyal/portfolio-pranjalgoyal",
-    demoLink: "https://pranjalgoyal.github.io/portfolio-pranjalgoyal/"
-  },
-  {
-    projectName: "Rotating Navigation",
-    projectDescription:
-      "Designed & Built the Rotating NavBar animation using HTML CSS and Vanilla avaScript.",
-    projectImage: "images/rotating-nav.png",
-    codeLink: "https://github.com/pranjalgoyal/Rotating-navigation",
-    demoLink: "https://pranjalgoyal.github.io/Rotating-navigation/"
-  },
-  {
-    projectName: "Expanding Card Animation",
-    projectDescription:
-      "Designed & Built the Expanding Cards animation using HTML CSS and Vanilla JavaScript.",
-    projectImage: "images/animation.png",
-    codeLink: "https://github.com/pranjalgoyal/expanding-cards",
-    demoLink: "https://pranjalgoyal.github.io/expanding-cards/"
-  },
-  {
+      "A webapp that can detect Fake News with the help of AI",
+    projectImage: "images/fakenews.jpeg",
+    codeLink: "https://github.com/pranjalg13/fake-news-detection",
+    demoLink: null
+  },{
     projectName: "Password Strength Tester",
     projectDescription:
       "Designed & Built the Password Strength Tester using React-Hooks and 'zxcvbn' package.",
     projectImage: "images/password.png",
-    codeLink: "https://github.com/pranjalgoyal/password-strength-validator",
+    codeLink: "https://github.com/pranjalg13/password-strength",
     demoLink: "https://github.com/pranjalgoyal/password-strength-validator"
-  },
-  {
-    projectName: "Light Dark Switch",
-    projectDescription:
-      "Designed & Built the Light and Dark Switch using React-Hooks and local storage.",
-    projectImage: "images/switch.png",
-    codeLink: "https://github.com/pranjalgoyal/Dark-Light-mode",
-    demoLink: "https://dark-light-mode.vercel.app/"
-  },
-  {
-    projectName: "Hangman Game",
-    projectDescription:
-      "Designed & Built Hangman Game using React and React-Hooks.",
-    projectImage: "images/hangman.png",
-    codeLink: "https://github.com/pranjalgoyal/Hangman-Game-React",
-    demoLink: "https://hangman-game-react.vercel.app/"
-  },
-  {
-    projectName: "Devil Button",
-    projectDescription:
-      "Designed & Built Devil Button Game using HTML and JavaScript.",
-    projectImage: "images/devil button.png",
-    codeLink: "https://github.com/pranjalgoyal/Devil-Button",
-    demoLink: "https://pranjalgoyal.github.io/Devil-Button/"
-  },
-  {
-    projectName: "JavaScript Quiz",
-    projectDescription:
-      "Designed & Built Quizzing Application using HTML CSS and Vanilla JavaScript.",
-    projectImage: "images/quiz.png",
-    codeLink: "https://pranjalgoyal.github.io/JavaScript-QuizApp/",
-    demoLink: "https://pranjalgoyal.github.io/JavaScript-QuizApp/"
-  },
- 
+  }
 ];
 
 const createCards = () => {

@@ -148,7 +148,7 @@ const projects = [
     projectName: "Contextual Chatbot",
     projectDescription:
       "A chatbot that can understand the question and answer intelligently.",
-    projectImage: "images/2.gif",
+    projectImage: "images/chatbot.gif",
     codeLink: "https://github.com/pranjalgoyal/ImageDock",
     demoLink: null
   },{

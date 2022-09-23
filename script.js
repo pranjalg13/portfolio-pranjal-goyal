@@ -162,7 +162,7 @@ const projects = [
     projectName: "Hire Me",
     projectDescription:
       "HireMe is a one stop solution to hire people (Design)",
-    projectImage: "images/hireme.png",
+    projectImage: "images/hireme.webp",
     codeLink: "https://github.com/pranjalgoyal/movies-deck",
     demoLink: null
   },

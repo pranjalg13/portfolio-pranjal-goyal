@@ -3,7 +3,7 @@
 
 Go through this amazing portfolio repo made using just HTML, CSS and Js
 
--- Live Demo
+## Live Demo
 ###### **Here is the link to the [live demo](https://pranjalg13.github.io/portfolio-pranjal-goyal/)**
 
 

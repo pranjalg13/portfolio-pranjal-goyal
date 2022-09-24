@@ -1,7 +1,9 @@
 # Portfolio
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/pranjalg13) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/pranjalg13)
 
-Go through this amazing portfolio repo made using just HTML, CSS and Js
+Go through this amazing portfolio repo made using just HTML, CSS and Js 
+
+## Do check the theme changing feature:
 
 ## Live Demo
 ###### **Here is the link to the [live demo](https://pranjalg13.github.io/portfolio-pranjal-goyal/)**

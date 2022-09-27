@@ -1,6 +1,8 @@
 # Portfolio
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/pranjalg13) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/pranjalg13)
 
+## P.S: Never realized that the portoflio template my friend provided, he took from Dennis Itself, what a coincidence :(...
+
 Go through this amazing portfolio repo made using just HTML, CSS and Js 
 
 ## Do check the theme changing feature:

@@ -170,7 +170,7 @@ const projects = [
     projectName: "Fake News Detection",
     projectDescription:
       "A webapp that can detect Fake News with the help of AI",
-    projectImage: "images/fakenews.jpeg",
+    projectImage: "images/fakenews.gif",
     codeLink: "https://github.com/pranjalg13/fake-news-detection",
     demoLink: null
   },{

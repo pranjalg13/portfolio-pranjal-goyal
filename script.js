@@ -143,7 +143,7 @@ const projects = [
       "Xmeme is a meme streaming application which lets you post your faviorite memes with Name,URL and Caption.",
     projectImage: "images/xmeme.png",
     codeLink: "https://github.com/pranjalg13/Xmeme",
-    demoLink: "null"
+    demoLink: null
   },{
     projectName: "Contextual Chatbot",
     projectDescription:
@@ -179,7 +179,7 @@ const projects = [
       "Designed & Built the Password Strength Tester using React-Hooks and 'zxcvbn' package.",
     projectImage: "images/password.png",
     codeLink: "https://github.com/pranjalg13/password-strength",
-    demoLink: "https://github.com/pranjalgoyal/password-strength-validator"
+    demoLink: null
   }
 ];
 

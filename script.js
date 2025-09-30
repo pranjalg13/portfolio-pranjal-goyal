@@ -141,7 +141,7 @@ const projects = [
     projectName: "Xmeme",
     projectDescription:
       "Xmeme is a meme streaming application which lets you post your faviorite memes with Name,URL and Caption.",
-    projectImage: "images/xmeme.png",
+    projectImage: "images/livedemo.gif",
     codeLink: "https://github.com/pranjalg13/Xmeme",
     demoLink: null
   },{

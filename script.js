@@ -149,7 +149,7 @@ const projects = [
     projectDescription:
       "A chatbot that can understand the question and answer intelligently.",
     projectImage: "images/chatbot.gif",
-    codeLink: "https://github.com/pranjalgoyal/ImageDock",
+    codeLink: "https://github.com/pranjalg13/contextual-chatbot",
     demoLink: null
   },{
     projectName: "Space Explorer",
@@ -163,7 +163,7 @@ const projects = [
     projectDescription:
       "HireMe is a one stop solution to hire people (Design)",
     projectImage: "images/hireme.webp",
-    codeLink: "https://github.com/pranjalgoyal/movies-deck",
+    codeLink: "https://github.com/priyanks25coder/hackathon2022",
     demoLink: null
   },
   {
